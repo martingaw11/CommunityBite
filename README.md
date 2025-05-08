@@ -1,5 +1,62 @@
 # Community Bite
 
+### *Software Engineering II*: CS-442 @ UIC
+
+- #### [Who was involved?](#collaborators)
+- #### [How to run the project?](#running-the-project-locally)
+
+## Description
+
+Community Bite is a web-application that is designed to tackling hunger and food waste  
+by bridging the gap between potential Donors and Food-Banks/Pantries. This is done by  
+allowing Donors to make posts about the donations they want to make, of which Food-Banks  
+can then request for these donations. This allows for a more seamless transition of  
+potential donations to the food-banks, allowing for a more healthy cycle that benefits  
+the community... hence Community Bite.  
+
+On top of this, we integrated a Maps feature special for the community to use when looking  
+for food they might need. Leveraging the ability for food-banks to use our app as an  
+inventory management system, we can integrate inventories into our Maps to allow the  
+community to search for items of need. But we cannot limit this to food-banks registered  
+with our app, so we pull in all pantries in the area to the Maps since the main goal is  
+to help the community.
+
+## Tools Used
+
++ Next.js
+  + React
+  + Typescript
++ PostgreSQL
++ Prisma
++ Postman
++ Google Maps API
++ UI Libraries
+  + Lucide
+  + Tailwind
+  + ShadCN
+  + Radix
+
+## Preview
+
+![Homepage](./public/preview/home-page.png)
+![Maps](./public/preview/maps-page.png)
+
+## Collaborators
+
+<u>Group that Coded/Created this Prototype (Spring '25):</u>
+
+- [Martin Gawron](https://github.com/martingaw11) 
+- [Nolan Reilly](https://github.com/nolan-reilly)
+- [Micah Olugbamila](https://github.com/M-i-c-a-h)
+- [Maryann Olugbamila](https://github.com/MaryannO45)
+
+<u>Group that Originally Proposed the Project (Fall '23):</u>
+
+- Sebastian B
+- Aleksandr E
+- Ronak C
+- Yibin L
+
 ## Running the Project Locally
 
 1. In terminal ```npm install```
